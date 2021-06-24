@@ -11,8 +11,8 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 from scipy.stats import binom
 import math
-from calculator_sim import calculator_sim
-import dash_daq as daq
+from Assets.calculator_sim import calculator_sim
+
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
